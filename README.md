@@ -1,12 +1,28 @@
 # Skipless
 
-Skipless is a Safari extension for Mac that makes YouTube videos start right
-away, without ads.
+Skipless is a Safari extension that makes YouTube videos start right away,
+without ads.
 
+**[Get Skipless on the App Store](https://apps.apple.com/app/id6827079651)**
+for iPhone and iPad (iOS and iPadOS 18 or later). It's free.
+
+The Mac version is in App Review. Until it's out, try the test build:
 **[Download Skipless.zip](https://github.com/durcak/skipless/releases/latest/download/Skipless.zip)**
-(test build for macOS 15 Sequoia or later, Apple silicon and Intel)
+(macOS 15 Sequoia or later, Apple silicon and Intel)
 
-## Install
+## Set up on iPhone and iPad
+
+1. Install Skipless from the App Store and open it once.
+2. In Settings > Apps > Safari > Extensions > Skipless, turn on
+   **Allow Extension** and set youtube.com to **Allow**.
+3. Open youtube.com in Safari and play a video. It should start right away,
+   without an ad.
+
+Skipless works in Safari only; the YouTube app doesn't run Safari extensions.
+To pause Skipless, tap the page menu next to the address, then Skipless, and
+turn off **Block ads on youtube.com**.
+
+## Install the Mac test build
 
 This test build isn't from the App Store and isn't checked by Apple, so it
 takes a few extra steps.
@@ -37,7 +53,7 @@ To uninstall it, move Skipless.app to the Trash.
 
 Found a video with an ad, or one that starts slowly?
 [Open an issue](https://github.com/durcak/skipless/issues) and include your
-macOS version (Apple menu > About This Mac).
+device and its macOS or iOS version.
 
 ## Privacy
 
